@@ -25,4 +25,6 @@ const style = StyleSheet.create({
 
 });
 
+//comment
+
 export default style;
