@@ -5,15 +5,18 @@ import styles from './styles'
 
 
 const MangoItem = (props) => {
+
+    const { name, price, image, } = props?.mango;
+    // console.log(image)
     return (
         <View style={styles.mangoContainer}>
             <ImageBackground
-                source={require('../../assets/images/m-bg-1.jpg')}
+                source={image}
                 style={styles.image}
             />
             <View style={styles.headings}>
-                <Text style={styles.heading}>Mango Name:</Text>
-                <Text style={styles.price}>Price: </Text>
+                <Text style={styles.heading}> {name} </Text>
+                <Text style={styles.price}> {price} </Text>
 
 
 
