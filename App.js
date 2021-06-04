@@ -3,13 +3,14 @@ import React from 'react';
 import { StyleSheet, Text, View, ImageBackground, Image, TouchableOpacity } from 'react-native';
 import MangoItem from './components/MangoItem';
 import MangoList from './components/MangoList';
+import Header from './components/Header';
 
 
 
 export default function App() {
   return (
     <View style={styles.container}>
-
+      <Header></Header>
       <MangoList />
     
       
