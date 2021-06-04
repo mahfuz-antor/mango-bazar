@@ -16,12 +16,19 @@ const styles = StyleSheet.create({
       heading:{
         fontSize: 30,
         fontWeight: 'bold',
-        color: '#fff'
+        color: '#0af9ac',
+        backgroundColor: 'white',
+        borderRadius: 15,
+        padding: 10,
       },
     
       price: {
         fontSize: 26,
-        color: '#fff'
+        color: '#0af9ac',
+        backgroundColor: 'white',
+        borderRadius: 10,
+        padding: 5,
+        marginTop: 10,
       },
     
       image: {
@@ -30,6 +37,13 @@ const styles = StyleSheet.create({
         resizeMode: 'cover',
         position: 'absolute',
       },
+
+      buttonContainer: {
+          position: 'absolute',
+          bottom: 50,
+          alignItems: 'center',
+          width: '100%',
+      }
     
 
 });
