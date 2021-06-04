@@ -4,7 +4,7 @@ import styles from './style';
 const Header = () => {
     return (
         <View style={styles.container}>
-            <Image style={styles.image}></Image>
+            <Image style={styles.logo} source={}></Image>
         </View>
     )
 }
