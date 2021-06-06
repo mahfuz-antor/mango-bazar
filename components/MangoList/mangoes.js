@@ -6,7 +6,7 @@ export default [{
     name: 'Fozly',
     price: '$1920',
     taglineCTA: 'Touchless Delivery',
-    image: require('../../assets/images/bg-2.jpg'),
+    image: require('../../assets/images/m-bg-2.jpg'),
   }, {
     name: 'Gopal Vog',
     price: '$1920',
