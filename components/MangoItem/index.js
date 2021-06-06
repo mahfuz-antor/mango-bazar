@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text, View, ImageBackground, } from 'react-native';
+import { StyleSheet, Text, View, ImageBackground, SafeAreaView, ScrollView, } from 'react-native';
 import ButtonStyle from '../ButtonStyle';
 import styles from './styles'
 
@@ -9,6 +9,8 @@ const MangoItem = (props) => {
     const { name, price, image, } = props?.mango;
     // console.log(image)
     return (
+        <SafeAreaView>
+        <ScrollView>
         <View style={styles.mangoContainer}>
             <ImageBackground
                 source={image}
@@ -42,6 +44,8 @@ const MangoItem = (props) => {
             </View>
 
         </View>
+        </ScrollView>
+    </SafeAreaView>
     );
 };
 

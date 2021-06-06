@@ -1,27 +1,32 @@
 import React from 'react';
-import { FlatList, StyleSheet, Text, View, Dimensions,  } from 'react-native';
+import { FlatList, StyleSheet, Text, View, Dimensions,   } from 'react-native';
 import styles from './styles';
-import Mango from './mangoes';
+import mango from './mangoes';
 import MangoItem from '../MangoItem';
+
 
 
 const MangoList = (props) => {
 
 
     return (
+       
         <View>
       
+     
             <FlatList 
-            data={Mango}
+            data={mango}
             renderItem={({item}) => <MangoItem mango={item} />}
-            // showsVerticalScrollIndicator={true}
-            // snapToAlignment={'end'}
-            // decelerationRate={'slow'}
+            // showsVerticalScrollIndicator={false}
+            // snapToAlignment={'start'}
+            // decelerationRate={'fast'}
             // snapToInterval={Dimensions.get('window').height}
 
             />
+             </View>
     
-      </View>
+    
+     
     );
 };
 

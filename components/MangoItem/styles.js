@@ -3,13 +3,13 @@ import { StyleSheet} from 'react-native';
 const styles = StyleSheet.create({
     mangoContainer: {
         width: '100%',
-        height: '100%'
+        height: 720
       },
     
       headings:{
-        marginTop: '30%',
+        marginTop: '25%',
         alignItems: 'center',
-        // position: 'absolute',
+        // position: 'relative',
         color: '#fff'
       },
     
