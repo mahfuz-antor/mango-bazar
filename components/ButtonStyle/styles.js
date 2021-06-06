@@ -1,5 +1,7 @@
 import { StyleSheet} from 'react-native';
 
+// This file is deleted
+
 const style = StyleSheet.create({
     buttonContainer: {
         width: '80%',
