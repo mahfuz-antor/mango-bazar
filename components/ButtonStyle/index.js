@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyleSheet, Text, View, ImageBackground, Pressable,  } from 'react-native';
-import styles from './style'
+import styles from './styles'
 
 
 const ButtonStyle = (props) => {

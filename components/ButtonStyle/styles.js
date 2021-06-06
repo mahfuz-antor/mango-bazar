@@ -2,7 +2,7 @@ import { StyleSheet} from 'react-native';
 
 // This file is deleted
 
-const style = StyleSheet.create({
+const styles = StyleSheet.create({
     buttonContainer: {
         width: '80%',
         padding: 10,
@@ -29,4 +29,4 @@ const style = StyleSheet.create({
 
 //comment
 
-export default style;
+export default styles;
